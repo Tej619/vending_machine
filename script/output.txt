@@ -1,0 +1,300 @@
+Inside Nginx Lua script: Processing Order... Request from: 1
+Status: true
+Beverage Type: Cold for Weather Warm for city 1 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 2
+Status: true
+Beverage Type: Hot for Weather Cold for city 2 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 3
+Status: true
+Beverage Type: Cold for Weather Warm for city 3 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 4
+Status: true
+Beverage Type: Hot for Weather Cold for city 4 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 5
+Status: true
+Beverage Type: Cold for Weather Warm for city 5 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 6
+Status: true
+Beverage Type: Hot for Weather Cold for city 6 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 7
+Status: true
+Beverage Type: Cold for Weather Warm for city 7 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 8
+Status: true
+Beverage Type: Hot for Weather Cold for city 8 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 9
+Status: true
+Beverage Type: Cold for Weather Warm for city 9 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 10
+Status: true
+Beverage Type: Hot for Weather Cold for city 10 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 11
+Status: true
+Beverage Type: Cold for Weather Warm for city 11 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 12
+Status: true
+Beverage Type: Hot for Weather Cold for city 12 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 13
+Status: true
+Beverage Type: Cold for Weather Warm for city 13 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 14
+Status: true
+Beverage Type: Hot for Weather Cold for city 14 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 15
+Status: true
+Beverage Type: Cold for Weather Warm for city 15 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 16
+Status: true
+Beverage Type: Hot for Weather Cold for city 16 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 17
+Status: true
+Beverage Type: Cold for Weather Warm for city 17 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 18
+Status: true
+Beverage Type: Hot for Weather Cold for city 18 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 19
+Status: true
+Beverage Type: Cold for Weather Warm for city 19 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 20
+Status: true
+Beverage Type: Hot for Weather Cold for city 20 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 21
+Status: true
+Beverage Type: Cold for Weather Warm for city 21 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 22
+Status: true
+Beverage Type: Hot for Weather Cold for city 22 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 23
+Status: true
+Beverage Type: Cold for Weather Warm for city 23 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 24
+Status: true
+Beverage Type: Hot for Weather Cold for city 24 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 25
+Status: true
+Beverage Type: Cold for Weather Warm for city 25 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 26
+Status: true
+Beverage Type: Hot for Weather Cold for city 26 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 27
+Status: true
+Beverage Type: Cold for Weather Warm for city 27 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 28
+Status: true
+Beverage Type: Hot for Weather Cold for city 28 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 29
+Status: true
+Beverage Type: Cold for Weather Warm for city 29 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 30
+Status: true
+Beverage Type: Hot for Weather Cold for city 30 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 31
+Status: true
+Beverage Type: Cold for Weather Warm for city 31 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 32
+Status: true
+Beverage Type: Hot for Weather Cold for city 32 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 33
+Status: true
+Beverage Type: Cold for Weather Warm for city 33 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 34
+Status: true
+Beverage Type: Hot for Weather Cold for city 34 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 35
+Status: true
+Beverage Type: Cold for Weather Warm for city 35 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 36
+Status: true
+Beverage Type: Hot for Weather Cold for city 36 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 37
+Status: true
+Beverage Type: Cold for Weather Warm for city 37 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 38
+Status: true
+Beverage Type: Hot for Weather Cold for city 38 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 39
+Status: true
+Beverage Type: Cold for Weather Warm for city 39 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 40
+Status: true
+Beverage Type: Hot for Weather Cold for city 40 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 41
+Status: true
+Beverage Type: Cold for Weather Warm for city 41 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 42
+Status: true
+Beverage Type: Hot for Weather Cold for city 42 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 43
+Status: true
+Beverage Type: Cold for Weather Warm for city 43 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 44
+Status: true
+Beverage Type: Hot for Weather Cold for city 44 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 45
+Status: true
+Beverage Type: Cold for Weather Warm for city 45 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 46
+Status: true
+Beverage Type: Hot for Weather Cold for city 46 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 47
+Status: true
+Beverage Type: Cold for Weather Warm for city 47 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 48
+Status: true
+Beverage Type: Hot for Weather Cold for city 48 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 49
+Status: true
+Beverage Type: Cold for Weather Warm for city 49 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 50
+Status: true
+Beverage Type: Hot for Weather Cold for city 50 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 51
+Status: true
+Beverage Type: Cold for Weather Warm for city 51 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 52
+Status: true
+Beverage Type: Hot for Weather Cold for city 52 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 53
+Status: true
+Beverage Type: Cold for Weather Warm for city 53 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 54
+Status: true
+Beverage Type: Hot for Weather Cold for city 54 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 55
+Status: true
+Beverage Type: Cold for Weather Warm for city 55 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 56
+Status: true
+Beverage Type: Hot for Weather Cold for city 56 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 57
+Status: true
+Beverage Type: Cold for Weather Warm for city 57 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 58
+Status: true
+Beverage Type: Hot for Weather Cold for city 58 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 59
+Status: true
+Beverage Type: Cold for Weather Warm for city 59 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 60
+Status: true
+Beverage Type: Hot for Weather Cold for city 60 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 61
+Status: true
+Beverage Type: Cold for Weather Warm for city 61 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 62
+Status: true
+Beverage Type: Hot for Weather Cold for city 62 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 63
+Status: true
+Beverage Type: Cold for Weather Warm for city 63 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 64
+Status: true
+Beverage Type: Hot for Weather Cold for city 64 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 65
+Status: true
+Beverage Type: Cold for Weather Warm for city 65 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 66
+Status: true
+Beverage Type: Hot for Weather Cold for city 66 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 67
+Status: true
+Beverage Type: Cold for Weather Warm for city 67 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 68
+Status: true
+Beverage Type: Hot for Weather Cold for city 68 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 69
+Status: true
+Beverage Type: Cold for Weather Warm for city 69 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 70
+Status: true
+Beverage Type: Hot for Weather Cold for city 70 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 71
+Status: true
+Beverage Type: Cold for Weather Warm for city 71 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 72
+Status: true
+Beverage Type: Hot for Weather Cold for city 72 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 73
+Status: true
+Beverage Type: Cold for Weather Warm for city 73 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 74
+Status: true
+Beverage Type: Hot for Weather Cold for city 74 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 75
+Status: true
+Beverage Type: Cold for Weather Warm for city 75 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 76
+Status: true
+Beverage Type: Hot for Weather Cold for city 76 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 77
+Status: true
+Beverage Type: Cold for Weather Warm for city 77 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 78
+Status: true
+Beverage Type: Hot for Weather Cold for city 78 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 79
+Status: true
+Beverage Type: Cold for Weather Warm for city 79 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 80
+Status: true
+Beverage Type: Hot for Weather Cold for city 80 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 81
+Status: true
+Beverage Type: Cold for Weather Warm for city 81 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 82
+Status: true
+Beverage Type: Hot for Weather Cold for city 82 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 83
+Status: true
+Beverage Type: Cold for Weather Warm for city 83 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 84
+Status: true
+Beverage Type: Hot for Weather Cold for city 84 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 85
+Status: true
+Beverage Type: Cold for Weather Warm for city 85 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 86
+Status: true
+Beverage Type: Hot for Weather Cold for city 86 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 87
+Status: true
+Beverage Type: Cold for Weather Warm for city 87 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 88
+Status: true
+Beverage Type: Hot for Weather Cold for city 88 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 89
+Status: true
+Beverage Type: Cold for Weather Warm for city 89 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 90
+Status: true
+Beverage Type: Hot for Weather Cold for city 90 and beverage is cappuccino
+Inside Nginx Lua script: Processing Order... Request from: 91
+Status: true
+Beverage Type: Cold for Weather Warm for city 91 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 92
+Status: true
+Beverage Type: Hot for Weather Cold for city 92 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 93
+Status: true
+Beverage Type: Cold for Weather Warm for city 93 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 94
+Status: true
+Beverage Type: Hot for Weather Cold for city 94 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 95
+Status: true
+Beverage Type: Cold for Weather Warm for city 95 and beverage is ice tea
+Inside Nginx Lua script: Processing Order... Request from: 96
+Status: true
+Beverage Type: Hot for Weather Cold for city 96 and beverage is espresso
+Inside Nginx Lua script: Processing Order... Request from: 97
+Status: true
+Beverage Type: Cold for Weather Warm for city 97 and beverage is soda
+Inside Nginx Lua script: Processing Order... Request from: 98
+Status: true
+Beverage Type: Hot for Weather Cold for city 98 and beverage is latte
+Inside Nginx Lua script: Processing Order... Request from: 99
+Status: true
+Beverage Type: Cold for Weather Warm for city 99 and beverage is lemonade
+Inside Nginx Lua script: Processing Order... Request from: 100
+Status: true
+Beverage Type: Hot for Weather Cold for city 100 and beverage is espresso

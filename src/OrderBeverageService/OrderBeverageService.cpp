@@ -40,7 +40,7 @@ int main(int argc, char **argv) {
     int weather_service_port = config_json["weather-service"]["port"];
     std::string weather_service_addr = config_json["weather-service"]["addr"];
     
-    // 5: get the beverage service's port and address
+    // 5: get the beverage preference service's port and address same as above
     int beverage_service_port = config_json["beverage-preference-service"]["port"];
     std::string beverage_service_addr = config_json["beverage-preference-service"]["addr"];
 
@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
     ClientPool<ThriftClient<WeatherServiceClient>> weather_client_pool(
         "weather-service", weather_service_addr, weather_service_port, 0, 128, 1000);
 
-    // 7: get the client of beverage-preference-service
+    // 7: get the client of beverage-preference-service same as above
     ClientPool<ThriftClient<BeveragePreferenceServiceClient>> beverage_client_pool(
         "beverage-preference-service", beverage_service_addr, beverage_service_port, 0, 128, 1000);
     // 8: configure this server

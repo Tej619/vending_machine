@@ -8,20 +8,22 @@
 #include "BeveragePreferenceHandler.h"
 
 using json = nlohmann::json;
-using apache::thrift::server::TThreadedServer;
-using apache::thrift::transport::TServerSocket;
-using apache::thrift::transport::TFramedTransportFactory;
 using apache::thrift::protocol::TBinaryProtocolFactory;
+using apache::thrift::server::TThreadedServer;
+using apache::thrift::transport::TFramedTransportFactory;
+using apache::thrift::transport::TServerSocket;
 
 using namespace vending_machine;
 
 // Signal handler code
-void sigintHandler(int sig) {
+void sigintHandler(int sig)
+{
     exit(EXIT_SUCCESS);
 }
 
 // Entry point of the service
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     // 1: Notify the signal handler if interrupted
     signal(SIGINT, sigintHandler);
     // 1.1: Initialize logging
@@ -29,7 +31,8 @@ int main(int argc, char **argv) {
 
     // 2: Read the config file for ports and addresses
     json config_json;
-    if (load_config_file("config/service-config.json", &config_json) != 0) {
+    if (load_config_file("config/service-config.json", &config_json) != 0)
+    {
         exit(EXIT_FAILURE);
     }
 
@@ -42,8 +45,7 @@ int main(int argc, char **argv) {
             std::make_shared<BeveragePreferenceServiceHandler>()),
         std::make_shared<TServerSocket>("0.0.0.0", my_port),
         std::make_shared<TFramedTransportFactory>(),
-        std::make_shared<TBinaryProtocolFactory>()
-    );
+        std::make_shared<TBinaryProtocolFactory>());
 
     // 5: Start the server
     std::cout << "Starting the beverage preference server..." << std::endl;

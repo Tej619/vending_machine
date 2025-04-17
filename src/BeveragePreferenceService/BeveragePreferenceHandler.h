@@ -6,33 +6,40 @@
 #include <string>
 #include <random>
 
-namespace vending_machine {
+namespace vending_machine
+{
 
-class BeveragePreferenceServiceHandler : public BeveragePreferenceServiceIf {
-public:
-    BeveragePreferenceServiceHandler() = default;
-    virtual ~BeveragePreferenceServiceHandler() = default;
+    class BeveragePreferenceServiceHandler : public BeveragePreferenceServiceIf
+    {
+    public:
+        BeveragePreferenceServiceHandler() = default;
+        virtual ~BeveragePreferenceServiceHandler() = default;
 
-    void getBeverage(std::string& _return, const BeverageType::type btype) override;
-};
+        void getBeverage(std::string &_return, const BeverageType::type beverageType) override;
+    };
 
-void BeveragePreferenceServiceHandler::getBeverage(std::string& _return, const BeverageType::type btype) {
-  std::vector<std::string> hotBeverages = {"cappuccino", "latte", "espresso"};
-  std::vector<std::string> coldBeverages = {"lemonade", "ice tea", "soda"};
-  
-  std::random_device rd;
-  std::mt19937 gen(rd());
-  std::uniform_int_distribution<> dis(0, 2);  // Assuming we have 3 beverages in each list
+    void BeveragePreferenceServiceHandler::getBeverage(std::string &_return, const BeverageType::type beverageType)
+    {
+        std::vector<std::string> hotBeverages = {"cappuccino", "latte", "espresso"};
+        std::vector<std::string> coldBeverages = {"lemonade", "ice tea", "soda"};
 
-  if (btype == BeverageType::HOT) {
-      _return = hotBeverages[dis(gen)];  // Randomly pick a hot beverage
-  } else if (btype == BeverageType::COLD) {
-      _return = coldBeverages[dis(gen)];  // Randomly pick a cold beverage
-  } else {
-      _return = "No beverage found!";
-  }
-}
+        std::random_device rd;
+        std::mt19937 gen(rd());
+        std::uniform_int_distribution<> dis(0, 2); // 3 beverages in each list
 
+        if (beverageType == BeverageType::HOT)
+        {
+            _return = hotBeverages[dis(gen)]; // Randomly pick a hot beverage
+        }
+        else if (beverageType == BeverageType::COLD)
+        {
+            _return = coldBeverages[dis(gen)]; // Randomly pick a cold beverage
+        }
+        else
+        {
+            _return = "No beverage found!";
+        }
+    }
 } // namespace vending_machine
 
-#endif //VENDING_MACHINE_MICROSERVICES_BEVERAGEPREFERENCEHANDLER_H
+#endif // VENDING_MACHINE_MICROSERVICES_BEVERAGEPREFERENCEHANDLER_H

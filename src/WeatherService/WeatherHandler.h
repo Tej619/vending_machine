@@ -33,7 +33,7 @@ WeatherType::type WeatherServiceHandler::GetWeather(const int64_t city) {
      // Your implementation goes here
      printf("GetWeather\n");
 
-    // randomly select a weather
+    // If the city id is an odd integer, return WARM as the type of the weather and for even returning COLD weather.
     return (city%2 == 0)? WeatherType::type::COLD : WeatherType::type::WARM;
 }
 
