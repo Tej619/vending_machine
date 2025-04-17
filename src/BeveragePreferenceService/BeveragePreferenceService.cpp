@@ -15,31 +15,31 @@ using apache::thrift::transport::TServerSocket;
 
 using namespace vending_machine;
 
-// Signal handler code
+// signal handler code
 void sigintHandler(int sig)
 {
     exit(EXIT_SUCCESS);
 }
 
-// Entry point of the service
+// entry of this service
 int main(int argc, char **argv)
 {
-    // 1: Notify the signal handler if interrupted
+    // 1: Notify the singal handler if interrupted
     signal(SIGINT, sigintHandler);
     // 1.1: Initialize logging
     init_logger();
 
-    // 2: Read the config file for ports and addresses
+    // 2: read the config file for ports and addresses
     json config_json;
     if (load_config_file("config/service-config.json", &config_json) != 0)
     {
         exit(EXIT_FAILURE);
     }
 
-    // 3: Get the service port from the config file
+    // 3: get my port
     int my_port = config_json["beverage-preference-service"]["port"];
 
-    // 4: Configure the server with the appropriate processor and transport
+    // 4: configure this server
     TThreadedServer server(
         std::make_shared<BeveragePreferenceServiceProcessor>(
             std::make_shared<BeveragePreferenceServiceHandler>()),
@@ -47,7 +47,7 @@ int main(int argc, char **argv)
         std::make_shared<TFramedTransportFactory>(),
         std::make_shared<TBinaryProtocolFactory>());
 
-    // 5: Start the server
+    // 5: start the server
     std::cout << "Starting the beverage preference server..." << std::endl;
     server.serve();
     return 0;

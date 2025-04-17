@@ -29,11 +29,11 @@ namespace vending_machine
 
         if (beverageType == BeverageType::HOT)
         {
-            _return = hotBeverages[dis(gen)]; // Randomly pick a hot beverage
+            _return = hotBeverages[dis(gen)]; // Randomly picking a hot beverage from vector list
         }
         else if (beverageType == BeverageType::COLD)
         {
-            _return = coldBeverages[dis(gen)]; // Randomly pick a cold beverage
+            _return = coldBeverages[dis(gen)]; // Randomly picking a cold beverage from vector list
         }
         else
         {
